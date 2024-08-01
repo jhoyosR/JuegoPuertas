@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de las Puertas - Monty Hall</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Encuentra el Carro!</h1>
+        <div id="game" class="doors-container">
+            <div class="door" id="door1" data-door="1">Puerta 1</div>
+            <div class="door" id="door2" data-door="2">Puerta 2</div>
+            <div class="door" id="door3" data-door="3">Puerta 3</div>
+        </div>
+        <div class="controls">
+            <button id="stay" class="action-button">Quedarse con la Puerta</button>
+            <button id="switch" class="action-button">Cambiar de Puerta</button>
+            <button id="reset" class="action-button">Reiniciar Juego</button>
+            <button id="simulate" class="action-button">Simular Juegos</button>
+        </div>
+        <p id="message" class="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
